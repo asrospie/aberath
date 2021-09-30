@@ -1,0 +1,61 @@
+.test {
+    border: 2px solid blue;
+}
+
+.map-img {
+    cursor: move;
+    /* height: auto; */
+    /* width: auto; */
+    /* max-width: 50em; */
+    /* max-height: 50em; */
+    scale: .4;
+    position: relative;
+}
+
+.map-container {
+    height: auto;
+    width: auto;
+    /* max-width: 1779px; */
+    /* max-height: 1187px; */
+    overflow: hidden;
+    border: 2px solid #86C232;
+    /* overflow: scroll; */
+}
+
+.no-dec {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+body {
+    background-color: #222629;
+    font-family: monospace;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: white;
+    font-size: 1.1em;
+}
+
+.top-nav a {
+    margin-right: .5em;
+    color: #86C232;
+}
+
+.footer {
+    text-align: center;
+}
+
+.content {
+}
+
+.content a {
+    /* text-decoration: none; */
+    color: #86C232;
+}
+a, a:visited, a:hover, a:active {
+    color: #86C232;
+}

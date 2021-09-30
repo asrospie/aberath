@@ -10,9 +10,9 @@
 
 <nav class="top-nav">
     <a href="/">Home</a>
-    <a href="/fivins-journal">Fivin's Journal</a>
-    <a href="/zans-tome">Zan's Tome</a>
-    <a href="/">About</a>
+    <a href="/blog">Blog</a>
+    <a href="/characters">Characters</a>
+    <a href="/world">World</a>
     <a href="https://github.com/asrospie/tales-from-aberath">GitHub</a>
 </nav>
 

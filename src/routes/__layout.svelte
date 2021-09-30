@@ -13,7 +13,7 @@
     <a href="/blog">Blog</a>
     <a href="/characters">Characters</a>
     <a href="/world">World</a>
-    <a href="https://github.com/asrospie/tales-from-aberath">GitHub</a>
+    <a href="https://github.com/asrospie/aberath">GitHub</a>
 </nav>
 
 <slot></slot>

@@ -36,9 +36,7 @@
 
     $: posts.forEach((post, idx) => {
         let new_post = {};
-        let date = new Date(post.publish_date.replace(/-/g, ' '));
-        console.log(date)
-        console.log(date.getFullYear())
+        let date = new Date(Date.parse(post.publish_date.replace(/-/g, '/')));
         new_post['sort_date'] = date;
     
         new_post['publish_date'] = date.toLocaleDateString('en-US', options); 

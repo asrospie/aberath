@@ -2,11 +2,13 @@
     import { useURI } from '$lib/util';
 
     export const prerender = true;
-    export async function load({ fetch }) {
-        const res = await fetch(`${useURI()}posts`);
+    export async function load({ fetch, session }) {
+        // const res = await fetch(`${useURI()}posts`);
+        const res = await fetch('/api/blog.json');
         const data = await res.json();
+        console.log(session);
 
-        return { props: { posts: data.data } };
+        return { props: { posts: data } };
     }
 </script>
 
@@ -24,7 +26,7 @@
 <PostList link="" />
 
 <ul>
-    {#each posts as post}
-        <li>{post.attributes.title}</li>
+    {#each posts.data as post}
+        <li><a href={`/blog/posts/${post.attributes.permalink}`}>{post.attributes.title}</a></li>
     {/each}
 </ul>

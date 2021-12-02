@@ -14,6 +14,9 @@
     <a href="/characters">Characters</a>
     <a href="/world">World</a>
     <a href="https://github.com/asrospie/aberath">GitHub</a>
+    {#if false}
+        <a href="/blog/posts/test">test</a>
+    {/if}
 </nav>
 
 <slot></slot>
